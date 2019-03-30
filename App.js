@@ -13,8 +13,8 @@ export default class App extends React.Component {
       uri: './assets/images/robot-dev.png'
     };
     return (
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Text>Hello World</Text>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "start" }}>
+        <Text style={{fontSize: 32, fontWeight: bold}}>Cat App</Text>
       </View>
     );
   }
